@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const ai = new GoogleGenerativeAI("AIzaSyBWAholAxXLJeulpuh81mAJ-_9PkPsFElM");
+const ai = new GoogleGenerativeAI("SUA-API-GEMINI");
 
 app.use(express.json());
 app.use(express.static(__dirname));
@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 });
 
 const TelegramBot = require('node-telegram-bot-api');
-const TELEGRAM_TOKEN = '7589815333:AAFV9aeuM6KxZFnifRhLws2iHFBTRX0R5hM';
+const TELEGRAM_TOKEN = 'API-BOT-FURIA-TELEGRAM';
 const telegramBot = new TelegramBot(TELEGRAM_TOKEN, { polling: true });
 
 // Remove tags HTML não suportadas pelo Telegram
