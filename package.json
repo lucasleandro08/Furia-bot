@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@google/genai": "^0.10.0",
+    "@google/generative-ai": "^0.24.0",
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "path": "^0.12.7"
+  },
+  "name": "furiaapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LucasLeandro",
+  "license": "ISC",
+  "description": ""
+}
