@@ -9,7 +9,7 @@
   <h2 class="text-2xl font-semibold mt-6 mb-2">2. Objetivos</h2>
   <ul class="list-disc ml-6">
     <li>Oferecer um canal de interação automática e personalizada para fãs da FÚRIA.</li>
-    <li>Prover informações atualizadas sobre o time, jogadores, jogos e curiosidades.</li>
+    <li>Prover informações atualizadas(até onde a api grátis consegue ser usada) sobre o time, jogadores, jogos e curiosidades.</li>
     <li>Facilitar acesso a conteúdos exclusivos e novidades do time.</li>
   </ul>
 
